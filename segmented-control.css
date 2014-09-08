@@ -36,16 +36,13 @@ body {
 			font: 14px/1.5 sans-serif; 
 			text-align: center;  
 
-			overflow: hidden;
-			text-overflow: ellipsis;
-
 			cursor: pointer;
 		}
 
 		.segmented-control__label:hover {
 			background: #fafafa;
 		}
-		
+
 		.segmented-control__input:checked + .segmented-control__label {
 			background: #eee;
 			color: #333; 
