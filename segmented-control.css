@@ -1,16 +1,19 @@
 body {
 	margin: 0 auto;
-	padding: 4em 1.5em;
-	max-width: 40em;
+	padding: 3em 1.5em;
+	max-width: 32em;
 
 	background: #fff;
 	color: #555;
+
+	font: 1em/1.5 sans-serif;
+	text-align: center;
 }
 
 .segmented-control {
 	display: table;
 	width: 100%;
-	margin: 0 0 4em;
+	margin: 2em 0;
 	padding: 0;
 }
 
