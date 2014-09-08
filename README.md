@@ -6,8 +6,14 @@ A simple, CSS-driven way to create a segmented control using a list of radio but
 Here’s the markup:
 ```html
 <ul class="segmented-control">
-    <li class="segmented-control__item"> <input class="segmented-control__input" type="radio" value="1"   name="option" id="option-1" checked>  <label class="segmented-control__label" for="option-1" > Thing 1</label> </li>
-    <li class="segmented-control__item"> <input class="segmented-control__input" type="radio" value="2"   name="option" id="option-2" >         <label class="segmented-control__label" for="option-2" > Thing 2</label> </li>
+    <li class="segmented-control__item">
+        <input class="segmented-control__input" type="radio" value="1" name="option" id="option-1" checked>
+        <label class="segmented-control__label" for="option-1">Thing 1</label>
+    </li>
+    <li class="segmented-control__item">
+        <input class="segmented-control__input" type="radio" value="2" name="option" id="option-2" >
+        <label class="segmented-control__label" for="option-2">Thing 2</label>
+    </li>
 </ul>
 ```
 
