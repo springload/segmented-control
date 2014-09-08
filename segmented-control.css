@@ -1,0 +1,55 @@
+body {
+	margin: 0 auto;
+	padding: 4em 1.5em;
+	max-width: 40em;
+
+	background: #fff;
+	color: #555;
+}
+
+.segmented-control {
+	position: relative;
+	margin: 0 0 4em;
+	padding: 0;
+}
+
+.segmented-control:after {
+	display: block;
+	clear: both;
+
+	content: ' ';
+}
+
+	.segmented-control__item {
+		float: left;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	.segmented-control--2-items .segmented-control__item { width: 50%; }
+	.segmented-control--3-items .segmented-control__item { width: 33.333%; }
+	.segmented-control--4-items .segmented-control__item { width: 25%; }
+	.segmented-control--5-items .segmented-control__item { width: 20%; }
+	.segmented-control--6-items .segmented-control__item { width: 16.666%; }
+
+		.segmented-control__input {
+			position: absolute;
+			visibility: hidden;
+		}
+
+		.segmented-control__label {
+			display: block;
+			margin: 0 -1px -1px 0; /* -1px margin removes double-thickness borders between items */
+			padding: 1em;
+			border: 1px solid #ddd;
+			font: 14px/1.5 sans-serif; 
+			text-align: center;
+		}
+
+
+
+		.segmented-control__input:checked + .segmented-control__label {
+			background: #eee;
+			color: #444; 
+		}
